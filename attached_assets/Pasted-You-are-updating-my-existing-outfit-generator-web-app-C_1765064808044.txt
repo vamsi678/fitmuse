@@ -1,0 +1,62 @@
+You are updating my existing outfit generator web app.
+
+Current app behavior:
+- The user uploads photos of clothes that are actually in their closet.
+- You remove the background from each clothing image using a free background removal API key.
+- The app tags each item by type, like top, bottoms, shoes, outerwear, accessories.
+- The AI then builds outfits only from this closet, no random internet clothes, and shows the final outfit as a composite image made from those uploaded items.
+
+New feature I want:
+Add an optional "Style from a celebrity or character" feature.
+
+Detailed requirements:
+
+1. UI changes
+- On the main outfit creation screen, add an optional file upload input labeled something like "Upload a celebrity or character outfit for inspiration (optional)".
+- The user should still be able to generate outfits without using this feature, so make sure the flow still works if no image is uploaded.
+- If a style image is uploaded, show a small preview and a short message like "We will match this style using your closet only".
+
+2. Handling the inspiration image
+- When the user uploads a celebrity or character image, send it to the backend along with the normal outfit request.
+- On the backend, treat this as a “reference outfit”.
+- Extract basic style info from the image, for example:
+  - Main colors
+  - Type of top, bottoms, shoes, outerwear, accessories
+  - Overall vibe like casual, formal, streetwear, cozy, etc.
+- You do not need to build a perfect ML model from scratch, but design the code so it is clear where we would plug in a model or API that detects clothing and colors from the reference image.
+
+3. Matching the reference outfit to the user’s closet
+- Based on the detected items in the reference image, choose the closest possible match from the user’s existing closet items.
+- For example, if the celebrity wears blue wide leg jeans, a white cropped top, and black boots:
+  - Find pants in the closet that are most similar in category and color to the jeans.
+  - Find a top that matches the type and color of the reference top as closely as possible.
+  - Find shoes that are closest in style and color to the boots.
+- If there is no good match for a specific piece, gracefully skip that type or show a simple message like "No similar shoes found in your closet, showing the rest of the outfit".
+
+4. Generating the final outfit result
+- The final generated outfit must still use only the user’s closet items, never import new clothing from the internet.
+- Use the same background removal and compositing approach we already use for normal outfits.
+- Combine the chosen items (top, bottoms, shoes, etc.) into one outfit image, just like before.
+- Also show a simple text breakdown like:
+  - "Inspired by your uploaded image:
+     - Top: [closet item name or simple description]
+     - Bottoms: [...]
+     - Shoes: [...]"
+
+5. Code structure and integration
+- Work in the same language and framework as the existing app. If there is no code yet, create a simple web app using HTML, CSS, and JavaScript, or a basic React setup, and show how this feature would fit in.
+- Clearly separate:
+  - Frontend components for the file input and preview
+  - API routes or backend functions that handle the reference image and outfit matching
+  - Utility functions that compare closet items to the detected style features from the celebrity image
+- Include comments in the code explaining each main step so it is easy for me to tweak later.
+
+6. Deliverables
+- Update or create all necessary frontend files.
+- Update or create backend endpoints for:
+  - Receiving the closet items and the optional celebrity image
+  - Matching the celebrity outfit to closet items
+  - Returning the chosen outfit pieces and any messages
+- Show me how to run the project and which parts I could later connect to a real clothing detection API.
+
+Implement this feature end to end so I can upload a celebrity or character image and get a similar outfit generated only from my closet.

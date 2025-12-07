@@ -1,0 +1,298 @@
+Perfect. I’ll create **six clear, simple moodboards** you can hand directly to Replit or paste into your model prompt. Each moodboard includes:
+
+* **Color palette**
+* **Textures and fabrics**
+* **Silhouettes**
+* **Typical outfit pieces**
+* **Styling logic** (this is crucial, because Replit can follow rules like these)
+* **Example final outfits**
+
+These are written so an AI agent can easily turn each mood into consistent outfit suggestions.
+
+---
+
+# 🌫️ **1. CALM — Pastel blues, soft neutrals**
+
+### **Color Palette**
+
+* Soft blue
+* Light grey
+* White
+* Beige
+* Dusty lavender
+
+### **Textures / Fabrics**
+
+* Cotton
+* Soft knits
+* Linen
+* Light fleece
+
+### **Silhouettes**
+
+* Relaxed fit
+* Straight leg
+* Loose sweaters
+* Soft drape
+
+### **Typical Pieces**
+
+* Oversized sweatshirt
+* Light knit sweaters
+* Straight leg jeans
+* Linen pants
+* White sneakers
+* Soft tote bag
+
+### **Styling Logic**
+
+* Avoid sharp contrast
+* Prioritize comfort and balance
+* Keep colors light and muted
+* Choose pieces with smooth textures
+
+### **Example Outfit**
+
+* Beige oversized sweatshirt
+* Light blue denim
+* Pale-toned sneakers
+* Grey crossbody bag
+
+---
+
+# 🔥 **2. ENERGETIC — Bright reds, yellows, & color blocking**
+
+### **Color Palette**
+
+* Red
+* Hot pink
+* Yellow
+* Orange
+* Bright white
+
+### **Textures / Fabrics**
+
+* Nylon
+* Mesh
+* Activewear materials
+* Denim
+
+### **Silhouettes**
+
+* Fitted tops
+* Cropped cuts
+* Sporty shapes
+* High contrast color blocks
+
+### **Typical Pieces**
+
+* Bright cropped hoodie
+* Color block jacket
+* Track pants
+* Sneakers with bold accents
+* Chunky backpacks
+
+### **Styling Logic**
+
+* Use at least one high-energy color
+* Combine contrast colors
+* Include sporty or movement-forward shapes
+* Add at least one statement piece
+
+### **Example Outfit**
+
+* Yellow crop sweatshirt
+* Black and white block leggings
+* Red sneakers
+* Mini backpack
+
+---
+
+# 🌑 **3. DARK — Black, charcoal, deep greens**
+
+### **Color Palette**
+
+* Black
+* Charcoal
+* Dark olive
+* Deep navy
+
+### **Textures / Fabrics**
+
+* Leather
+* Denim
+* Heavy cotton
+* Ribbing
+
+### **Silhouettes**
+
+* Structured
+* Streamlined
+* Slightly oversized outerwear
+
+### **Typical Pieces**
+
+* Black jeans
+* Leather jacket
+* Dark crewneck
+* Combat boots
+* Structured tote
+
+### **Styling Logic**
+
+* Keep outfit low contrast
+* Mix matte and slightly shiny textures
+* Silhouette should feel grounded and strong
+
+### **Example Outfit**
+
+* Charcoal crewneck
+* Black straight jeans
+* Dark boots
+* Olive structured bag
+
+---
+
+# 🌈 **4. BRIGHT — Vibrant multicolors**
+
+### **Color Palette**
+
+* Bright teal
+* Hot pink
+* Lime
+* Sky blue
+* Sunshine yellow
+
+### **Textures / Fabrics**
+
+* Light cotton
+* Breathable knits
+* Canvas
+* Fun prints
+
+### **Silhouettes**
+
+* Playful
+* Balanced but not too structured
+* Layerable pieces
+
+### **Typical Pieces**
+
+* Patterned top
+* Colorful skirt or relaxed pants
+* Fun sneakers
+* Small colorful accessories
+
+### **Styling Logic**
+
+* Use at least two bright colors
+* Add prints or patterns when possible
+* Keep overall vibe fun and expressive
+
+### **Example Outfit**
+
+* Pink patterned top
+* Sky-blue wide-leg pants
+* Yellow canvas sneakers
+* Colorful hair clip or bag
+
+---
+
+# 🌸 **5. SOFT — Creams, beiges, pinks**
+
+### **Color Palette**
+
+* Cream
+* Rose
+* Blush pink
+* Warm beige
+* Soft white
+
+### **Textures / Fabrics**
+
+* Ribbed knit
+* Wool blend
+* Brushed cotton
+* Satin accents
+
+### **Silhouettes**
+
+* Flowy
+* Delicate
+* Light layering
+
+### **Typical Pieces**
+
+* Soft knit cardigan
+* Satin cami
+* Beige trousers
+* Pink flats or white sneakers
+* Light neutral bag
+
+### **Styling Logic**
+
+* Blend warm-toned neutrals
+* Avoid anything too sharp
+* Use soft curves in silhouette
+* Prioritize warmth and gentle color harmony
+
+### **Example Outfit**
+
+* Cream cardigan
+* Blush satin tank
+* Beige trousers
+* White sneakers
+
+---
+
+# ⚡ **6. BOLD — High contrast, sharp silhouettes**
+
+### **Color Palette**
+
+* Black
+* White
+* Royal blue
+* Red
+* Metallic accents
+
+### **Textures / Fabrics**
+
+* Leather
+* Structured cotton
+* Denim
+* Satin or chrome-like finishes
+
+### **Silhouettes**
+
+* Strong shoulders
+* Defined waist
+* Clean lines
+* Statement shapes
+
+### **Typical Pieces**
+
+* Structured blazer
+* High-waisted pants
+* Tucked-in tee
+* Boots or sleek sneakers
+* Geometric bag
+
+### **Styling Logic**
+
+* High contrast color pairing
+* Choose strong, defined lines
+* Keep the outfit intentional, not soft
+* At least one dramatic element (shoulder, shoe, or color pop)
+
+### **Example Outfit**
+
+* White fitted tee
+* Black wide-leg trousers
+* Structured blazer
+* Red bag or shoes
+
+---
+
+# ⭐ **If you want, I can generate a clean JSON version** of all six moodboards so you can feed it directly into Replit as structured data.
+
+Or I can generate **example final outfit images for all six moods**, like the Calm one you saw.
